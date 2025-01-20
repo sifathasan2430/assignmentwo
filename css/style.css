@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  /* share-width */
+  .main-width{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .display-flex{
+    display: flex;
+  }
+
+
+  /* header-setion */
+  /* curriculam-section */
+  .curriculum-section{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+  }
+  .curriculum-title{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 2.87rem;
+font-weight: 700;
+line-height: 3.6rem;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 80px;
+
+  }
+  .card-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  .card-item{
+    width: 367.8px;
+height: 476.78px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+  }
+  .card-blue{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+  .card-yellow{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+
+
+  .card-yellow a{
+    text-decoration: none;
+    color: rgb(240, 170, 0);
+  }
+  .card-purple{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+  .card-purple a{
+    color: rgb(135, 0, 255);
+  }
+  .card-title{
+    color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 1.53rem;
+font-weight: 700;
+line-height: 1.92rem;
+letter-spacing: 0%;
+
+  }
+  .card-info{
+    color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.76rem;
+letter-spacing: 0%;
+
+  }
+  .sub-title{
+    color: rgb(100, 200, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.76rem;
+letter-spacing: 0%;
+text-decoration: none;
+
+  }
+.angle-btn{
+    margin: 80px 0px 60px 0px;
+    text-align: center;
+}
+  .angle-left,.angle-right{
+    border-radius: 30px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    padding: 17px 22px;
+    
+    border: none;
+    color: rgb(255, 255, 255);
+font-family: Font Awesome 5 Free;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 1.5rem;
+letter-spacing: 0%;
+text-align: center;
+
+/* Orange */
+background: rgb(254, 163, 1);
+  }
+
+@media screen and (max-width:576px) {
+    .card-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+        justify-items: center;
+            }
+            .angle-btn{
+                visibility: hidden;
+            }
+        
+      }
