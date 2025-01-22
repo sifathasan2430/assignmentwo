@@ -503,10 +503,16 @@ width: 197px;
   .story-colum1{
     display: none;
   }
+  .story-section{
+    padding: 20px 20px;
+  }
   .story-colums2{
   
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
   
 }
